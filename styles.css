@@ -1,0 +1,76 @@
+body {
+    margin: 0px;
+    background-color: rgb(236, 156, 222);
+    font-family: 'Kalam', cursive;
+    color: aliceblue;
+}
+
+.page-nav {
+    border: 1px solid rgb(230, 65, 65);
+    position: relative;
+}
+.page-nav h1 {
+    margin: 20px;;
+}
+
+.button-checkout {
+    border: none;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Kalam', cursive;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+    padding: 15px;
+}
+
+.button-checkout:hover {
+    background-color: #aa0489; /* Green */
+    color: white;
+}
+
+.page-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 1px solid rgb(113, 36, 36)
+}
+
+.product-container {
+    margin: 20px;
+    padding: 2px 16px;
+    border-radius: 4px;
+    background-color: rgb(234, 129, 215);
+    position: relative;
+}
+
+.product-container:hover {
+    box-shadow: 0 8px 16px 0 rgba(177, 7, 7, 0.491);
+}
+
+.product-container img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    width: 300px;
+    border-radius: 4px;
+}
+
+.button-add {
+    border: none;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Kalam', cursive;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+}
+
+.button-add:hover {
+    background-color: #aa0489; /* Green */
+    color: white;
+}
